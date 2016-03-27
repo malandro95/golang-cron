@@ -3,6 +3,7 @@ This docker base image lets you build a *golang* binary and schedule its executi
 
 # usage
 ```
+# ONBUILD triggers will compile your golang application if stored in your project's root directory
 FROM rodrigodiez/golang-cron
 ```
 
